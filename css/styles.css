@@ -26,6 +26,7 @@
   --footer-soc-bckgrnd-color: rgba(255, 255, 255, 0.1);
   --footer-soc-icon-color: #f4f4fd;
   --footer-soc-hover-color: #31d0aa;
+  --main-background-btn-hover-color: #404BBF;
   --portfolio-hover-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   --teamcard-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -179,7 +180,7 @@ img {
 }
 .main-btn:hover,
 .main-btn:focus {
-  background: var(--background-btn-color);
+  background: var(--main-background-btn-hover-color);
 }
 /*---------FEATURES--------*/
 .features {
